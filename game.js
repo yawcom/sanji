@@ -82,7 +82,7 @@ function createStartScreen() {
     // Title
     const titleText = this.add.text(config.width / 2, config.height / 5, 'Caccia agli Ingredienti con Sanji', {
         fontFamily: 'Arial',
-        fontSize: '45px',
+        fontSize: '40px',
         color: '#ffffff',
         fontStyle: 'bold',
         stroke: '#000000',
@@ -91,9 +91,9 @@ function createStartScreen() {
 
     // Game instructions text
     const instructionsText = this.add.text(config.width / 2, config.height / 3, 
-        'Viene presentato un piatto delizioso e la tua sfida è individuare tutti gli ingredienti utilizzati per prepararlo.\n Fai attenzione ai dettagli: solo i veri intenditori riusciranno a indovinarli tutti!', {
+        'Viene presentato un piatto delizioso la tua sfida è individuare i 4 ingredienti utilizzati per prepararlo!\n Fai attenzione ai dettagli: solo i veri intenditori riusciranno a indovinarli tutti!', {
             fontFamily: 'Arial',
-        fontSize: '18px',
+        fontSize: '16px',
         fontStyle: 'italic',
         color: '#ffffff',
         stroke: '#000000',
@@ -103,7 +103,7 @@ function createStartScreen() {
     }).setOrigin(0.5).setShadow(2, 2, '#000000', 2, false, true);
 
     instructionsText.setText('');
-    const fullText = 'Viene presentato un piatto delizioso e la tua sfida è individuare tutti gli ingredienti utilizzati per prepararlo.\n Fai attenzione ai dettagli: solo i veri intenditori riusciranno a indovinarli tutti!';
+    const fullText = 'Viene presentato un piatto delizioso la tua sfida è individuare i 4 ingredienti utilizzati per prepararlo!\n Fai attenzione ai dettagli: solo i veri intenditori riusciranno a indovinarli tutti!';
     let i = 0;
 
     this.time.addEvent({
